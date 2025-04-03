@@ -9,6 +9,7 @@ class Profile extends StatelessWidget {
       appBar: AppBar(
         title: Text("Profile"),
         backgroundColor: Colors.green,
+        centerTitle: true,
       ),
     );
   }
