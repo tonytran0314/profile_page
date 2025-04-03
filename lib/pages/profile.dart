@@ -8,16 +8,19 @@ class Profile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Profile"),
+        title: Text(
+          "Bio-data",
+          style: TextStyle(
+            color: Colors.black,
+            fontSize: 17,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
         backgroundColor: Colors.white,
         centerTitle: true,
         leading: Container(
           margin: EdgeInsets.all(16),
-          child: SvgPicture.asset(
-            'assets/icons/left-arrow.svg',
-            width: 16,
-            height: 16,
-          ),
+          child: SvgPicture.asset('assets/icons/left-arrow.svg'),
         ),
       ),
     );
