@@ -68,6 +68,7 @@ class Profile extends StatelessWidget {
             fontSize: 14,
             fontWeight: FontWeight.normal
           ),
+          contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           prefixIcon: SizedBox(
             width: 62,
             child: IntrinsicHeight(
@@ -104,6 +105,7 @@ class Profile extends StatelessWidget {
           filled: true,
           fillColor: Colors.white,
           hintText: "Select your gender",
+          contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           suffixIcon: Padding(
             padding: const EdgeInsets.all(16),
             child: SvgPicture.asset('assets/icons/downArrow.svg'),
@@ -121,6 +123,7 @@ class Profile extends StatelessWidget {
           filled: true,
           fillColor: Colors.white,
           hintText: "What is your date of birth?",
+          contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           suffixIcon: Padding(
             padding: const EdgeInsets.all(14),
             child: SvgPicture.asset('assets/icons/calendar.svg'),
